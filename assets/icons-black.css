@@ -1,0 +1,681 @@
+@font-face {
+  font-family: 'icons-banks';
+  src:  url('/dist/fonts/icons-banks.eot?uavuoy');
+  src:  url('/dist/fonts/icons-banks.eot?uavuoy#iefix') format('embedded-opentype'),
+    url('/dist/fonts/icons-banks.ttf?uavuoy') format('truetype'),
+    url('/dist/fonts/icons-banks.woff?uavuoy') format('woff'),
+    url('/dist/fonts/icons-banks.svg?uavuoy#icons-banks') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i.ib {
+  font-family: 'icons-banks' !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-rendering: auto;
+  font-size: 1em;
+}
+
+.ib-inter:before {
+  content: "\e900";
+}
+.ib-citi-bank:before {
+  content: "\e901";
+}
+.ib-itau:before {
+  content: "\e902";
+}
+.ib-abc:before {
+  content: "\e903";
+}
+.ib-ailos:before {
+  content: "\e904";
+}
+.ib-asas:before {
+  content: "\e905";
+}
+.ib-amazonia:before {
+  content: "\e906";
+}
+.ib-bb:before {
+  content: "\e907";
+}
+.ib-mercantil:before {
+  content: "\e908";
+}
+.ib-original:before {
+  content: "\e909";
+}
+.ib-pine:before {
+  content: "\e90a";
+}
+.ib-safra:before {
+  content: "\e90b";
+}
+.ib-sofisa:before {
+  content: "\e90c";
+}
+.ib-topazio:before {
+  content: "\e90d";
+}
+.ib-banese:before {
+  content: "\e90e";
+}
+.ib-banestes:before {
+  content: "\e90f";
+}
+.ib-bank-of-america:before {
+  content: "\e910";
+}
+.ib-banpara:before {
+  content: "\e911";
+}
+.ib-banrisul:before {
+  content: "\e912";
+}
+.ib-bib:before {
+  content: "\e913";
+}
+.ib-bnb:before {
+  content: "\e914";
+}
+.ib-bradesco-alt:before {
+  content: "\e915";
+}
+.ib-bradesco:before {
+  content: "\e916";
+}
+.ib-brb-abbr:before {
+  content: "\e917";
+}
+.ib-brb:before {
+  content: "\e918";
+}
+.ib-bs2:before {
+  content: "\e919";
+}
+.ib-c6:before {
+  content: "\e91a";
+}
+.ib-capitual:before {
+  content: "\e91b";
+}
+.ib-cef:before {
+  content: "\e91c";
+}
+.ib-conta-simples .path1:before {
+  content: "\e91d";
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples .path2:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-conta-simples .path3:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-cora:before {
+  content: "\e920";
+}
+.ib-credisis:before {
+  content: "\e921";
+}
+.ib-cresol-horizontal:before {
+  content: "\e922";
+}
+.ib-daycoval .path1:before {
+  content: "\e923";
+  color: rgb(0, 0, 0);
+}
+.ib-daycoval .path2:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-daycoval .path3:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(221, 221, 221);
+}
+.ib-efi:before {
+  content: "\e926";
+}
+.ib-grafeno:before {
+  content: "\e927";
+}
+.ib-hsbc:before {
+  content: "\e928";
+}
+.ib-letsbank:before {
+  content: "\e929";
+}
+.ib-mercado-pago .path1:before {
+  content: "\e92a";
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago .path2:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago .path3:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-mercado-pago .path4:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-mercado-pago .path5:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-mercado-pago .path6:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-nubank:before {
+  content: "\e930";
+}
+.ib-nubank-bg .path1:before {
+  content: "\e931";
+  color: rgb(0, 0, 0);
+}
+.ib-nubank-bg .path2:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-nubank-bg .path3:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-omie:before {
+  content: "\e934";
+}
+.ib-cresol:before {
+  content: "\e935";
+}
+.ib-pagseguro .path1:before {
+  content: "\e936";
+  color: rgb(0, 0, 0);
+}
+.ib-pagseguro .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-pagseguro .path3:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-pagseguro .path4:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-pagseguro .path5:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-pagseguro .path6:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-pagseguro .path7:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-quality:before {
+  content: "\e93d";
+}
+.ib-santander:before {
+  content: "\e93e";
+}
+.ib-sicoob:before {
+  content: "\e93f";
+}
+.ib-sicoob-min:before {
+  content: "\e940";
+}
+.ib-sicredi:before {
+  content: "\e941";
+}
+.ib-stone:before {
+  content: "\e942";
+}
+.ib-tribanco:before {
+  content: "\e943";
+}
+.ib-unicred:before {
+  content: "\e944";
+}
+.ib-unicred-bg .path1:before {
+  content: "\e945";
+  color: rgb(0, 0, 0);
+}
+.ib-unicred-bg .path2:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-rendimento:before {
+  content: "\e947";
+}
+.ib-banco-original-comp:before {
+  content: "\e948";
+}
+.ib-banco-pine-comp:before {
+  content: "\e949";
+}
+.ib-banco-safra-comp:before {
+  content: "\e94a";
+}
+.ib-banco-sofisa-comp:before {
+  content: "\e94b";
+}
+.ib-banco-topazio-comp:before {
+  content: "\e94c";
+}
+.ib-banese-comp:before {
+  content: "\e94d";
+}
+.ib-banese-horizontal-comp:before {
+  content: "\e94e";
+}
+.ib-banestes-comp:before {
+  content: "\e94f";
+}
+.ib-banpara-comp:before {
+  content: "\e950";
+}
+.ib-banrisul-comp:before {
+  content: "\e951";
+}
+.ib-bnb-comp:before {
+  content: "\e952";
+}
+.ib-bradesco-comp:before {
+  content: "\e953";
+}
+.ib-brb-comp:before {
+  content: "\e954";
+}
+.ib-c6-comp:before {
+  content: "\e955";
+}
+.ib-capitual-comp:before {
+  content: "\e956";
+}
+.ib-conta-simples-comp .path1:before {
+  content: "\e957";
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path2:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-conta-simples-comp .path3:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path4:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path5:before {
+  content: "\e95b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path6:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path7:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path8:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path9:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path10:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path11:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path12:before {
+  content: "\e962";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path13:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path14:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path15:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-conta-simples-comp .path16:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-credisis-comp:before {
+  content: "\e967";
+}
+.ib-cresol-comp:before {
+  content: "\e968";
+}
+.ib-efi-comp:before {
+  content: "\e969";
+}
+.ib-banpara-horizontal-comp:before {
+  content: "\e96a";
+}
+.ib-letsbank-comp:before {
+  content: "\e96b";
+}
+.ib-mercado-pago-comp .path1:before {
+  content: "\e96c";
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path2:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path3:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-mercado-pago-comp .path4:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-mercado-pago-comp .path5:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-mercado-pago-comp .path6:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path7:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path8:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path9:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path10:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path11:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path12:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path13:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path14:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path15:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path16:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercado-pago-comp .path17:before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-mercantil-comp:before {
+  content: "\e97d";
+}
+.ib-omie-comp:before {
+  content: "\e97e";
+}
+.ib-pagbank-comp .path1:before {
+  content: "\e97f";
+  color: rgb(0, 0, 0);
+}
+.ib-pagbank-comp .path2:before {
+  content: "\e980";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-pagbank-comp .path3:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-pagbank-comp .path4:before {
+  content: "\e982";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-pagbank-comp .path5:before {
+  content: "\e983";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-pagbank-comp .path6:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-pagbank-comp .path7:before {
+  content: "\e985";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-pagseguro-comp .path1:before {
+  content: "\e986";
+  color: rgb(0, 0, 0);
+}
+.ib-pagseguro-comp .path2:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-pagseguro-comp .path3:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-pagseguro-comp .path4:before {
+  content: "\e989";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-pagseguro-comp .path5:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-pagseguro-comp .path6:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-pagseguro-comp .path7:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.ib-pagseguro-comp .path8:before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ib-sofisa-direto:before {
+  content: "\e98e";
+}
+.ib-stone-comp:before {
+  content: "\e98f";
+}
+.ib-tribanco-comp:before {
+  content: "\e990";
+}
+.ib-credisis-slogan:before {
+  content: "\e991";
+}
+.ib-tribanco-slogan:before {
+  content: "\e992";
+}
+
+.ib-1x {
+  font-size: 1em !important
+}
+
+.ib-2x {
+  font-size: 2em !important
+}
+
+.ib-3x {
+  font-size: 3em !important
+}
+
+.ib-4x {
+  font-size: 4em !important
+}
+
+.ib-5x {
+  font-size: 5em !important
+}
+
+.ib-6x {
+  font-size: 6em !important
+}
+
+.ib-7x {
+  font-size: 7em !important
+}
+
+.ib-8x {
+  font-size: 8em !important
+}
+
+.ib-9x {
+  font-size: 9em !important
+}
+
+.ib-10x {
+  font-size: 10em !important
+}
+
+.ib-2xs {
+  font-size: .625em !important;
+  line-height: .1em;
+  vertical-align: .225em
+}
+
+.ib-xs {
+  font-size: .75em !important;
+  line-height: .08333em;
+  vertical-align: .125em
+}
+
+.ib-sm {
+  font-size: .875em !important;
+  line-height: .07143em;
+  vertical-align: .05357em
+}
+
+.ib-lg {
+  font-size: 1.25em !important;
+  line-height: .05em;
+  vertical-align: -.075em
+}
+
+.ib-xl {
+  font-size: 1.5em !important;
+  line-height: .04167em;
+  vertical-align: -.125em
+}
+
+.ib-2xl {
+  font-size: 2em !important;
+  line-height: .03125em;
+  vertical-align: -.1875em
+}
+
+.ib-fw {
+  text-align: center;
+  width: 1.25em
+}

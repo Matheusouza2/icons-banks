@@ -1,0 +1,2769 @@
+@font-face {
+  font-family: 'icons-banks';
+  src: url('/dist/fonts/icons-banks-all.eot?prgx9n');
+  src: url('/dist/fonts/icons-banks-all.eot?prgx9n#iefix') format('embedded-opentype'),
+    url('/dist/fonts/icons-banks-all.ttf?prgx9n') format('truetype'),
+    url('/dist/fonts/icons-banks-all.woff?prgx9n') format('woff'),
+    url('/dist/fonts/icons-banks-all.svg?prgx9n#icons-banks') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i.ib {
+  font-family: 'icons-banks' !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--fa-display, inline-block);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-rendering: auto;
+  font-size: 1em;
+}
+
+.ib-abc-colored:before {
+  content: "\e993";
+  color: #a6874b;
+}
+
+.ib-ailos-colored .path1:before {
+  content: "\e994";
+  color: rgb(22, 92, 125);
+}
+
+.ib-ailos-colored .path2:before {
+  content: "\e9d2";
+  margin-left: -1em;
+  color: rgb(0, 169, 206);
+}
+
+.ib-ailos-colored .path3:before {
+  content: "\e9d3";
+  margin-left: -1em;
+  color: rgb(255, 163, 0);
+}
+
+.ib-ailos-colored .path4:before {
+  content: "\e9d4";
+  margin-left: -1em;
+  color: rgb(136, 107, 37);
+}
+
+.ib-ailos-colored .path5:before {
+  content: "\e9d5";
+  margin-left: -1em;
+  color: rgb(0, 177, 64);
+}
+
+.ib-ailos-colored .path6:before {
+  content: "\e9d6";
+  margin-left: -1em;
+  color: rgb(0, 125, 138);
+}
+
+.ib-ailos-colored .path7:before {
+  content: "\e9d7";
+  margin-left: -1em;
+  color: rgb(0, 112, 65);
+}
+
+.ib-ailos-colored-bg .path1:before {
+  content: "\e995";
+  color: rgb(22, 92, 125);
+}
+
+.ib-ailos-colored-bg .path2:before {
+  content: "\e9d8";
+  margin-left: -1em;
+  color: rgb(22, 92, 125);
+}
+
+.ib-ailos-colored-bg .path3:before {
+  content: "\ea51";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-ailos-colored-bg .path4:before {
+  content: "\ea52";
+  margin-left: -1em;
+  color: rgb(47, 165, 211);
+}
+
+.ib-ailos-colored-bg .path5:before {
+  content: "\ea53";
+  margin-left: -1em;
+  color: rgb(226, 164, 25);
+}
+
+.ib-ailos-colored-bg .path6:before {
+  content: "\ea54";
+  margin-left: -1em;
+  color: rgb(133, 109, 32);
+}
+
+.ib-ailos-colored-bg .path7:before {
+  content: "\ea55";
+  margin-left: -1em;
+  color: rgb(91, 162, 79);
+}
+
+.ib-ailos-colored-bg .path8:before {
+  content: "\ea56";
+  margin-left: -1em;
+  color: rgb(0, 126, 143);
+}
+
+.ib-ailos-colored-bg .path9:before {
+  content: "\ea57";
+  margin-left: -1em;
+  color: rgb(50, 108, 57);
+}
+
+.ib-asas-colored:before {
+  content: "\e996";
+  color: #0030b9;
+}
+
+.ib-bb-colored:before {
+  content: "\e997";
+  color: #33348e;
+}
+
+.ib-bb-colored-bg .path1:before {
+  content: "\e998";
+  color: rgb(255, 239, 56);
+}
+
+.ib-bb-colored-bg .path2:before {
+  content: "\ea58";
+  margin-left: -1em;
+  color: rgb(0, 61, 164);
+}
+
+.ib-bb-colored-bg .path3:before {
+  content: "\ea59";
+  margin-left: -1em;
+  color: rgb(0, 61, 164);
+}
+
+.ib-mercantil-colored .path1:before {
+  content: "\e999";
+  color: rgb(225, 225, 225);
+}
+
+.ib-mercantil-colored .path2:before {
+  content: "\ea5a";
+  margin-left: -1em;
+  color: rgb(211, 211, 211);
+}
+
+.ib-mercantil-colored .path3:before {
+  content: "\ea5b";
+  margin-left: -1em;
+  color: rgb(193, 193, 193);
+}
+
+.ib-mercantil-colored .path4:before {
+  content: "\ea5c";
+  margin-left: -1em;
+  color: rgb(184, 184, 184);
+}
+
+.ib-mercantil-colored .path5:before {
+  content: "\ea5d";
+  margin-left: -1em;
+  color: rgb(181, 181, 181);
+}
+
+.ib-mercantil-colored .path6:before {
+  content: "\ea5e";
+  margin-left: -1em;
+  color: rgb(155, 155, 155);
+}
+
+.ib-mercantil-colored .path7:before {
+  content: "\ea5f";
+  margin-left: -1em;
+  color: rgb(149, 149, 149);
+}
+
+.ib-mercantil-colored .path8:before {
+  content: "\ea60";
+  margin-left: -1em;
+  color: rgb(133, 133, 133);
+}
+
+.ib-mercantil-colored .path9:before {
+  content: "\ea61";
+  margin-left: -1em;
+  color: rgb(122, 122, 122);
+}
+
+.ib-mercantil-colored .path10:before {
+  content: "\ea62";
+  margin-left: -1em;
+  color: rgb(107, 107, 107);
+}
+
+.ib-mercantil-colored .path11:before {
+  content: "\ea63";
+  margin-left: -1em;
+  color: rgb(106, 106, 106);
+}
+
+.ib-mercantil-colored .path12:before {
+  content: "\ea64";
+  margin-left: -1em;
+  color: rgb(105, 105, 105);
+}
+
+.ib-mercantil-colored .path13:before {
+  content: "\ea65";
+  margin-left: -1em;
+  color: rgb(85, 85, 85);
+}
+
+.ib-mercantil-colored .path14:before {
+  content: "\ea66";
+  margin-left: -1em;
+  color: rgb(0, 0, 254);
+}
+
+.ib-original-colored:before {
+  content: "\e99a";
+  color: #18ad47;
+}
+
+.ib-pine-colored:before {
+  content: "\e99b";
+  color: #661739;
+}
+
+.ib-safra-colored:before {
+  content: "\e99c";
+  color: #00003c;
+}
+
+.ib-topazio-colored:before {
+  content: "\e99d";
+  color: #50c3c7;
+}
+
+.ib-banese-colored:before {
+  content: "\e99e";
+  color: #00622a;
+}
+
+.ib-banestes-colored .path1:before {
+  content: "\e99f";
+  color: rgb(0, 125, 195);
+}
+
+.ib-banestes-colored .path2:before {
+  content: "\ea67";
+  margin-left: -1em;
+  color: rgb(120, 189, 232);
+}
+
+.ib-banestes-colored .path3:before {
+  content: "\ea68";
+  margin-left: -1em;
+  color: rgb(81, 185, 72);
+}
+
+.ib-banestes-colored .path4:before {
+  content: "\ea69";
+  margin-left: -1em;
+  color: rgb(0, 75, 141);
+}
+
+.ib-bank-of-america-colored .path1:before {
+  content: "\e9a0";
+  color: rgb(51, 102, 204);
+}
+
+.ib-bank-of-america-colored .path2:before {
+  content: "\ea6a";
+  margin-left: -1em;
+  color: rgb(226, 23, 62);
+}
+
+.ib-bank-of-america-colored .path3:before {
+  content: "\ea6b";
+  margin-left: -1em;
+  color: rgb(51, 102, 204);
+}
+
+.ib-bank-of-america-colored .path4:before {
+  content: "\ea6c";
+  margin-left: -1em;
+  color: rgb(51, 102, 204);
+}
+
+.ib-bank-of-america-colored .path5:before {
+  content: "\ea6d";
+  margin-left: -1em;
+  color: rgb(51, 102, 204);
+}
+
+.ib-bank-of-america-colored .path6:before {
+  content: "\ea6e";
+  margin-left: -1em;
+  color: rgb(51, 102, 204);
+}
+
+.ib-banrisul-colored .path1:before {
+  content: "\e9a1";
+  color: rgb(7, 136, 254);
+}
+
+.ib-banrisul-colored .path2:before {
+  content: "\ea6f";
+  margin-left: -1em;
+  color: rgb(160, 111, 254);
+}
+
+.ib-banrisul-colored .path3:before {
+  content: "\ea70";
+  margin-left: -1em;
+  color: rgb(0, 217, 203);
+}
+
+.ib-bib-colored:before {
+  content: "\e9a2";
+  color: #001d5d;
+}
+
+.ib-bib-colored-bg .path1:before {
+  content: "\e9a3";
+  color: rgb(250, 251, 251);
+}
+
+.ib-bib-colored-bg .path2:before {
+  content: "\ea71";
+  margin-left: -1em;
+  color: rgb(0, 29, 93);
+}
+
+.ib-bnb-colored .path1:before {
+  content: "\e9a4";
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-colored .path2:before {
+  content: "\ea72";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-colored .path3:before {
+  content: "\ea73";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-colored .path4:before {
+  content: "\ea74";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-colored .path5:before {
+  content: "\ea75";
+  margin-left: -1em;
+  color: rgb(246, 140, 31);
+}
+
+.ib-bradesco-alt-colored:before {
+  content: "\e9a5";
+  color: #cc2229;
+}
+
+.ib-bradesco-colored:before {
+  content: "\e9a6";
+  color: #cc2229;
+}
+
+.ib-brb-bbr-colored .path1:before {
+  content: "\e9a7";
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-bbr-colored .path2:before {
+  content: "\ea76";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-bbr-colored .path3:before {
+  content: "\ea77";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-bbr-colored .path4:before {
+  content: "\ea78";
+  margin-left: -1em;
+  color: rgb(0, 173, 239);
+}
+
+.ib-brb-bbr-colored .path5:before {
+  content: "\ea79";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-colored .path1:before {
+  content: "\e9a8";
+  color: rgb(0, 173, 239);
+}
+
+.ib-brb-colored .path2:before {
+  content: "\ea7a";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-bs2-colored:before {
+  content: "\e9a9";
+  color: #33c;
+}
+
+.ib-capitual-colored .path1:before {
+  content: "\e9aa";
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-colored .path2:before {
+  content: "\ea7b";
+  margin-left: -1em;
+  color: rgb(15, 144, 255);
+}
+
+.ib-capitual-colored .path3:before {
+  content: "\ea7c";
+  margin-left: -1em;
+  color: rgb(186, 27, 255);
+}
+
+.ib-conta-simples-colored .path1:before {
+  content: "\e9ab";
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-colored .path2:before {
+  content: "\ea7d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-colored .path3:before {
+  content: "\ea7e";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-cora-colored:before {
+  content: "\e9ac";
+  color: #fe3e6d;
+}
+
+.ib-cora-colored-bg .path1:before {
+  content: "\e9ad";
+  color: rgb(0, 0, 0);
+}
+
+.ib-cora-colored-bg .path2:before {
+  content: "\ea7f";
+  margin-left: -1em;
+  color: rgb(254, 62, 109);
+}
+
+.ib-cora-colored-bg .path3:before {
+  content: "\ea80";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-cora-colored-bg .path4:before {
+  content: "\ea81";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-credisis-colored .path1:before {
+  content: "\e9ae";
+  color: rgb(251, 199, 7);
+}
+
+.ib-credisis-colored .path2:before {
+  content: "\ea82";
+  margin-left: -1em;
+  color: rgb(0, 166, 80);
+}
+
+.ib-cresol-horizontal-colored .path1:before {
+  content: "\e9af";
+  color: rgb(238, 125, 0);
+}
+
+.ib-cresol-horizontal-colored .path2:before {
+  content: "\ea83";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-horizontal-colored .path3:before {
+  content: "\ea84";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-horizontal-colored .path4:before {
+  content: "\ea85";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-horizontal-colored .path5:before {
+  content: "\ea86";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-horizontal-colored .path6:before {
+  content: "\ea87";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-horizontal-colored .path7:before {
+  content: "\ea88";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-horizontal-colored .path8:before {
+  content: "\ea89";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-efi-colored:before {
+  content: "\e9b0";
+  color: #f37021;
+}
+
+.ib-grafeno-colored .path1:before {
+  content: "\e9b1";
+  color: rgb(252, 194, 61);
+}
+
+.ib-grafeno-colored .path2:before {
+  content: "\ea8a";
+  margin-left: -1em;
+  color: rgb(252, 194, 61);
+}
+
+.ib-grafeno-colored .path3:before {
+  content: "\ea8b";
+  margin-left: -1em;
+  color: rgb(249, 65, 68);
+}
+
+.ib-grafeno-colored .path4:before {
+  content: "\ea8c";
+  margin-left: -1em;
+  color: rgb(255, 124, 30);
+}
+
+.ib-hsbc-colored:before {
+  content: "\e9b2";
+  color: #f00;
+}
+
+.ib-letsbank-colored .path1:before {
+  content: "\e9b3";
+  color: rgb(255, 113, 64);
+}
+
+.ib-letsbank-colored .path2:before {
+  content: "\ea8d";
+  margin-left: -1em;
+  color: rgb(178, 244, 74);
+}
+
+.ib-letsbank-colored .path3:before {
+  content: "\ea8e";
+  margin-left: -1em;
+  color: rgb(255, 133, 232);
+}
+
+.ib-mercado-pago-colored .path1:before {
+  content: "\e9b4";
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-colored .path2:before {
+  content: "\ea8f";
+  margin-left: -1em;
+  color: rgb(80, 180, 233);
+}
+
+.ib-mercado-pago-colored .path3:before {
+  content: "\ea90";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago-colored .path4:before {
+  content: "\ea91";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago-colored .path5:before {
+  content: "\ea92";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago-colored .path6:before {
+  content: "\ea93";
+  margin-left: -1em;
+  color: rgb(40, 49, 107);
+}
+
+.ib-nubank-colored:before {
+  content: "\e9b5";
+  color: #820ad1;
+}
+
+.ib-nubank-colored-bg .path1:before {
+  content: "\e9b6";
+  color: rgb(130, 10, 209);
+}
+
+.ib-nubank-colored-bg .path2:before {
+  content: "\ea94";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-nubank-colored-bg .path3:before {
+  content: "\ea95";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-omie-colored:before {
+  content: "\e9b7";
+  color: #00e2f4;
+}
+
+.ib-cresol-colored .path1:before {
+  content: "\e9b8";
+  color: rgb(239, 129, 36);
+}
+
+.ib-cresol-colored .path2:before {
+  content: "\ea96";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-pagseguro-colored .path1:before {
+  content: "\e9b9";
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-colored .path2:before {
+  content: "\ea97";
+  margin-left: -1em;
+  color: rgb(221, 224, 91);
+}
+
+.ib-pagseguro-colored .path3:before {
+  content: "\ea98";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-colored .path4:before {
+  content: "\ea99";
+  margin-left: -1em;
+  color: rgb(158, 213, 214);
+}
+
+.ib-pagseguro-colored .path5:before {
+  content: "\ea9a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-colored .path6:before {
+  content: "\ea9b";
+  margin-left: -1em;
+  color: rgb(255, 231, 45);
+}
+
+.ib-pagseguro-colored .path7:before {
+  content: "\ea9c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-quality-colored .path1:before {
+  content: "\e9ba";
+  color: rgb(110, 110, 112);
+}
+
+.ib-quality-colored .path2:before {
+  content: "\ea9d";
+  margin-left: -1em;
+  color: rgb(98, 46, 136);
+}
+
+.ib-santander-colored:before {
+  content: "\e9bb";
+  color: #ea1d25;
+}
+
+.ib-santander-colored-bg .path1:before {
+  content: "\e9bc";
+  color: rgb(254, 0, 0);
+}
+
+.ib-santander-colored-bg .path2:before {
+  content: "\ea9e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-sicoob-colored .path1:before {
+  content: "\e9bd";
+  color: rgb(110, 187, 73);
+}
+
+.ib-sicoob-colored .path2:before {
+  content: "\ea9f";
+  margin-left: -1em;
+  color: rgb(110, 187, 73);
+}
+
+.ib-sicoob-colored .path3:before {
+  content: "\eaa0";
+  margin-left: -1em;
+  color: rgb(0, 174, 156);
+}
+
+.ib-sicoob-colored .path4:before {
+  content: "\eaa1";
+  margin-left: -1em;
+  color: rgb(184, 211, 53);
+}
+
+.ib-sicoob-colored .path5:before {
+  content: "\eaa2";
+  margin-left: -1em;
+  color: rgb(0, 174, 156);
+}
+
+.ib-sicoob-colored .path6:before {
+  content: "\eaa3";
+  margin-left: -1em;
+  color: rgb(184, 211, 53);
+}
+
+.ib-sicredi-colored .path1:before {
+  content: "\e9be";
+  color: rgb(20, 110, 55);
+}
+
+.ib-sicredi-colored .path2:before {
+  content: "\eaa4";
+  margin-left: -1em;
+  color: rgb(100, 200, 50);
+}
+
+.ib-sofisa-colored .path1:before {
+  content: "\e9bf";
+  color: rgb(0, 169, 146);
+}
+
+.ib-sofisa-colored .path2:before {
+  content: "\eaa5";
+  margin-left: -1em;
+  color: rgb(248, 177, 36);
+}
+
+.ib-stone-colored:before {
+  content: "\e9c0";
+  color: #00a868;
+}
+
+.ib-tribanco-colored .path1:before {
+  content: "\e9c1";
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-colored .path2:before {
+  content: "\eaa6";
+  margin-left: -1em;
+  color: rgb(140, 209, 51);
+}
+
+.ib-unicred-colored:before {
+  content: "\e9c2";
+  color: #b9a557;
+}
+
+.ib-unicred-colored-bg .path1:before {
+  content: "\e9c3";
+  color: rgb(0, 74, 53);
+}
+
+.ib-unicred-colored-bg .path2:before {
+  content: "\eaa7";
+  margin-left: -1em;
+  color: rgb(155, 152, 21);
+}
+
+.ib-rendimento-colored:before {
+  content: "\e9c4";
+  color: #0a1d6f;
+}
+
+.ib-original-comp-colored:before {
+  content: "\e9c5";
+  color: #18ad47;
+}
+
+.ib-pine-comp-colored .path1:before {
+  content: "\e9c6";
+  color: rgb(86, 88, 89);
+}
+
+.ib-pine-comp-colored .path2:before {
+  content: "\eaa8";
+  margin-left: -1em;
+  color: rgb(102, 23, 57);
+}
+
+.ib-pine-comp-colored .path3:before {
+  content: "\eaa9";
+  margin-left: -1em;
+  color: rgb(102, 23, 57);
+}
+
+.ib-safra-comp-colored:before {
+  content: "\e9c7";
+  color: #00003c;
+}
+
+.ib-sofisa-comp-colored .path1:before {
+  content: "\e9c8";
+  color: rgb(248, 177, 36);
+}
+
+.ib-sofisa-comp-colored .path2:before {
+  content: "\eaaa";
+  margin-left: -1em;
+  color: rgb(0, 169, 146);
+}
+
+.ib-topazio-comp-colored:before {
+  content: "\e9c9";
+  color: #50c3c7;
+}
+
+.ib-banese-comp-colored:before {
+  content: "\e9ca";
+  color: #00622a;
+}
+
+.ib-banese-horizontal-comp-colored:before {
+  content: "\e9cb";
+  color: #00622a;
+}
+
+.ib-banestes-comp-colored .path1:before {
+  content: "\e9cc";
+  color: rgb(0, 125, 195);
+}
+
+.ib-banestes-comp-colored .path2:before {
+  content: "\eaab";
+  margin-left: -1em;
+  color: rgb(120, 189, 232);
+}
+
+.ib-banestes-comp-colored .path3:before {
+  content: "\eaac";
+  margin-left: -1em;
+  color: rgb(0, 75, 141);
+}
+
+.ib-banestes-comp-colored .path4:before {
+  content: "\eaad";
+  margin-left: -1em;
+  color: rgb(81, 185, 72);
+}
+
+.ib-banestes-comp-colored .path5:before {
+  content: "\eaae";
+  margin-left: -1em;
+  color: rgb(0, 75, 141);
+}
+
+.ib-banpara-comp-colored .path1:before {
+  content: "\e9cd";
+  color: rgb(8, 30, 96);
+}
+
+.ib-banpara-comp-colored .path2:before {
+  content: "\eaaf";
+  margin-left: -1em;
+  color: rgb(234, 28, 36);
+}
+
+.ib-banpara-comp-colored .path3:before {
+  content: "\eab0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-banrisul-comp-colored .path1:before {
+  content: "\e9ce";
+  color: rgb(0, 0, 81);
+}
+
+.ib-banrisul-comp-colored .path2:before {
+  content: "\eab1";
+  margin-left: -1em;
+  color: rgb(0, 0, 81);
+}
+
+.ib-banrisul-comp-colored .path3:before {
+  content: "\eab2";
+  margin-left: -1em;
+  color: rgb(0, 0, 81);
+}
+
+.ib-banrisul-comp-colored .path4:before {
+  content: "\eab3";
+  margin-left: -1em;
+  color: rgb(0, 0, 81);
+}
+
+.ib-banrisul-comp-colored .path5:before {
+  content: "\eab4";
+  margin-left: -1em;
+  color: rgb(0, 0, 81);
+}
+
+.ib-banrisul-comp-colored .path6:before {
+  content: "\eab5";
+  margin-left: -1em;
+  color: rgb(0, 0, 81);
+}
+
+.ib-banrisul-comp-colored .path7:before {
+  content: "\eab6";
+  margin-left: -1em;
+  color: rgb(0, 0, 81);
+}
+
+.ib-banrisul-comp-colored .path8:before {
+  content: "\eab7";
+  margin-left: -1em;
+  color: rgb(0, 0, 81);
+}
+
+.ib-banrisul-comp-colored .path9:before {
+  content: "\eab8";
+  margin-left: -1em;
+  color: rgb(0, 0, 81);
+}
+
+.ib-banrisul-comp-colored .path10:before {
+  content: "\eab9";
+  margin-left: -1em;
+  color: rgb(7, 136, 254);
+}
+
+.ib-banrisul-comp-colored .path11:before {
+  content: "\eaba";
+  margin-left: -1em;
+  color: rgb(160, 111, 254);
+}
+
+.ib-banrisul-comp-colored .path12:before {
+  content: "\eabb";
+  margin-left: -1em;
+  color: rgb(0, 217, 203);
+}
+
+.ib-bnb-comp-colored .path1:before {
+  content: "\e9cf";
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path2:before {
+  content: "\eabc";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path3:before {
+  content: "\eabd";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path4:before {
+  content: "\eabe";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path5:before {
+  content: "\eabf";
+  margin-left: -1em;
+  color: rgb(246, 140, 31);
+}
+
+.ib-bnb-comp-colored .path6:before {
+  content: "\eac0";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path7:before {
+  content: "\eac1";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path8:before {
+  content: "\eac2";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path9:before {
+  content: "\eac3";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path10:before {
+  content: "\eac4";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path11:before {
+  content: "\eac5";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path12:before {
+  content: "\eac6";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path13:before {
+  content: "\eac7";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path14:before {
+  content: "\eac8";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path15:before {
+  content: "\eac9";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path16:before {
+  content: "\eaca";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path17:before {
+  content: "\eacb";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path18:before {
+  content: "\eacc";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path19:before {
+  content: "\eacd";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bnb-comp-colored .path20:before {
+  content: "\eace";
+  margin-left: -1em;
+  color: rgb(168, 10, 53);
+}
+
+.ib-bradesco-comp-colored .path1:before {
+  content: "\e9d0";
+  color: rgb(204, 34, 41);
+}
+
+.ib-bradesco-comp-colored .path2:before {
+  content: "\eacf";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-bradesco-comp-colored .path3:before {
+  content: "\ead0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-brb-comp-colored .path1:before {
+  content: "\e9d1";
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path2:before {
+  content: "\ead1";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path3:before {
+  content: "\ead2";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path4:before {
+  content: "\ead3";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path5:before {
+  content: "\ead4";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path6:before {
+  content: "\ead5";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path7:before {
+  content: "\ead6";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path8:before {
+  content: "\ead7";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path9:before {
+  content: "\ead8";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path10:before {
+  content: "\ead9";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path11:before {
+  content: "\eada";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path12:before {
+  content: "\eadb";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path13:before {
+  content: "\eadc";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path14:before {
+  content: "\eadd";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path15:before {
+  content: "\eade";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path16:before {
+  content: "\eadf";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path17:before {
+  content: "\eae0";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path18:before {
+  content: "\eae1";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-brb-comp-colored .path19:before {
+  content: "\eae2";
+  margin-left: -1em;
+  color: rgb(0, 173, 239);
+}
+
+.ib-brb-comp-colored .path20:before {
+  content: "\eae3";
+  margin-left: -1em;
+  color: rgb(23, 62, 125);
+}
+
+.ib-capitual-comp-colored .path1:before {
+  content: "\e9d9";
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path2:before {
+  content: "\e9da";
+  margin-left: -1em;
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path3:before {
+  content: "\e9db";
+  margin-left: -1em;
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path4:before {
+  content: "\e9dc";
+  margin-left: -1em;
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path5:before {
+  content: "\e9dd";
+  margin-left: -1em;
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path6:before {
+  content: "\e9de";
+  margin-left: -1em;
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path7:before {
+  content: "\e9df";
+  margin-left: -1em;
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path8:before {
+  content: "\e9e0";
+  margin-left: -1em;
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path9:before {
+  content: "\e9e1";
+  margin-left: -1em;
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path10:before {
+  content: "\e9e2";
+  margin-left: -1em;
+  color: rgb(39, 41, 55);
+}
+
+.ib-capitual-comp-colored .path11:before {
+  content: "\e9e3";
+  margin-left: -1em;
+  color: rgb(15, 144, 255);
+}
+
+.ib-capitual-comp-colored .path12:before {
+  content: "\e9e4";
+  margin-left: -1em;
+  color: rgb(186, 27, 255);
+}
+
+.ib-conta-simples-comp-colored .path1:before {
+  content: "\e9e5";
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path2:before {
+  content: "\e9e6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp-colored .path3:before {
+  content: "\e9e7";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path4:before {
+  content: "\e9e8";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path5:before {
+  content: "\e9e9";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path6:before {
+  content: "\e9ea";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path7:before {
+  content: "\e9eb";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path8:before {
+  content: "\e9ec";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path9:before {
+  content: "\e9ed";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path10:before {
+  content: "\e9ee";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path11:before {
+  content: "\e9ef";
+  margin-left: -1em;
+  color: rgb(45, 205, 105);
+}
+
+.ib-conta-simples-comp-colored .path12:before {
+  content: "\e9f0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp-colored .path13:before {
+  content: "\e9f1";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp-colored .path14:before {
+  content: "\e9f2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp-colored .path15:before {
+  content: "\e9f3";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp-colored .path16:before {
+  content: "\e9f4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-credisis-comp-colored .path1:before {
+  content: "\e9f5";
+  color: rgb(251, 199, 7);
+}
+
+.ib-credisis-comp-colored .path2:before {
+  content: "\e9f6";
+  margin-left: -1em;
+  color: rgb(0, 166, 80);
+}
+
+.ib-cresol-comp-colored .path1:before {
+  content: "\e9f7";
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-comp-colored .path2:before {
+  content: "\e9f8";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-comp-colored .path3:before {
+  content: "\e9f9";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-comp-colored .path4:before {
+  content: "\e9fa";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-comp-colored .path5:before {
+  content: "\e9fb";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-comp-colored .path6:before {
+  content: "\e9fc";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-cresol-comp-colored .path7:before {
+  content: "\e9fd";
+  margin-left: -1em;
+  color: rgb(239, 129, 36);
+}
+
+.ib-cresol-comp-colored .path8:before {
+  content: "\e9fe";
+  margin-left: -1em;
+  color: rgb(0, 92, 70);
+}
+
+.ib-efi-comp-colored:before {
+  content: "\e9ff";
+  color: #f37021;
+}
+
+.ib-banpara-horizontal-comp-colored .path1:before {
+  content: "\ea00";
+  color: rgb(234, 28, 36);
+}
+
+.ib-banpara-horizontal-comp-colored .path2:before {
+  content: "\ea01";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-banpara-horizontal-comp-colored .path3:before {
+  content: "\ea02";
+  margin-left: -1em;
+  color: rgb(47, 54, 142);
+}
+
+.ib-letsbank-comp-colored .path1:before {
+  content: "\ea03";
+  color: rgb(0, 0, 0);
+}
+
+.ib-letsbank-comp-colored .path2:before {
+  content: "\ea04";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-letsbank-comp-colored .path3:before {
+  content: "\ea05";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-letsbank-comp-colored .path4:before {
+  content: "\ea06";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-letsbank-comp-colored .path5:before {
+  content: "\ea07";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-letsbank-comp-colored .path6:before {
+  content: "\ea08";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-letsbank-comp-colored .path7:before {
+  content: "\ea09";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-letsbank-comp-colored .path8:before {
+  content: "\ea0a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-letsbank-comp-colored .path9:before {
+  content: "\ea0b";
+  margin-left: -1em;
+  color: rgb(255, 113, 64);
+}
+
+.ib-letsbank-comp-colored .path10:before {
+  content: "\ea0c";
+  margin-left: -1em;
+  color: rgb(178, 244, 74);
+}
+
+.ib-letsbank-comp-colored .path11:before {
+  content: "\ea0d";
+  margin-left: -1em;
+  color: rgb(255, 133, 232);
+}
+
+.ib-mercado-pago-comp-colored .path1:before {
+  content: "\ea0e";
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-comp-colored .path2:before {
+  content: "\ea0f";
+  margin-left: -1em;
+  color: rgb(80, 180, 233);
+}
+
+.ib-mercado-pago-comp-colored .path3:before {
+  content: "\ea10";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago-comp-colored .path4:before {
+  content: "\ea11";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago-comp-colored .path5:before {
+  content: "\ea12";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago-comp-colored .path6:before {
+  content: "\ea13";
+  margin-left: -1em;
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-comp-colored .path7:before {
+  content: "\ea14";
+  margin-left: -1em;
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-comp-colored .path8:before {
+  content: "\ea15";
+  margin-left: -1em;
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-comp-colored .path9:before {
+  content: "\ea16";
+  margin-left: -1em;
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-comp-colored .path10:before {
+  content: "\ea17";
+  margin-left: -1em;
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-comp-colored .path11:before {
+  content: "\ea18";
+  margin-left: -1em;
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-comp-colored .path12:before {
+  content: "\ea19";
+  margin-left: -1em;
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-comp-colored .path13:before {
+  content: "\ea1a";
+  margin-left: -1em;
+  color: rgb(40, 49, 107);
+}
+
+.ib-mercado-pago-comp-colored .path14:before {
+  content: "\ea1b";
+  margin-left: -1em;
+  color: rgb(80, 180, 233);
+}
+
+.ib-mercado-pago-comp-colored .path15:before {
+  content: "\ea1c";
+  margin-left: -1em;
+  color: rgb(80, 180, 233);
+}
+
+.ib-mercado-pago-comp-colored .path16:before {
+  content: "\ea1d";
+  margin-left: -1em;
+  color: rgb(80, 180, 233);
+}
+
+.ib-mercado-pago-comp-colored .path17:before {
+  content: "\ea1e";
+  margin-left: -1em;
+  color: rgb(80, 180, 233);
+}
+
+.ib-mercantil-comp-colored:before {
+  content: "\ea1f";
+  color: #0000fe;
+}
+
+.ib-omie-comp-colored:before {
+  content: "\ea20";
+  color: #00e2f4;
+}
+
+.ib-pagbank-comp-colored .path1:before {
+  content: "\ea21";
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagbank-comp-colored .path2:before {
+  content: "\ea22";
+  margin-left: -1em;
+  color: rgb(221, 224, 91);
+}
+
+.ib-pagbank-comp-colored .path3:before {
+  content: "\ea23";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagbank-comp-colored .path4:before {
+  content: "\ea24";
+  margin-left: -1em;
+  color: rgb(158, 213, 214);
+}
+
+.ib-pagbank-comp-colored .path5:before {
+  content: "\ea25";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagbank-comp-colored .path6:before {
+  content: "\ea26";
+  margin-left: -1em;
+  color: rgb(255, 231, 45);
+}
+
+.ib-pagbank-comp-colored .path7:before {
+  content: "\ea27";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp-colored .path1:before {
+  content: "\ea28";
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp-colored .path2:before {
+  content: "\ea29";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp-colored .path3:before {
+  content: "\ea2a";
+  margin-left: -1em;
+  color: rgb(221, 228, 96);
+}
+
+.ib-pagseguro-comp-colored .path4:before {
+  content: "\ea2b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp-colored .path5:before {
+  content: "\ea2c";
+  margin-left: -1em;
+  color: rgb(167, 220, 218);
+}
+
+.ib-pagseguro-comp-colored .path6:before {
+  content: "\ea2d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp-colored .path7:before {
+  content: "\ea2e";
+  margin-left: -1em;
+  color: rgb(246, 223, 63);
+}
+
+.ib-pagseguro-comp-colored .path8:before {
+  content: "\ea2f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-sofisa-direto-comp-colored .path1:before {
+  content: "\ea30";
+  color: rgb(248, 177, 36);
+}
+
+.ib-sofisa-direto-comp-colored .path2:before {
+  content: "\ea31";
+  margin-left: -1em;
+  color: rgb(0, 169, 146);
+}
+
+.ib-sofisa-direto-comp-colored .path3:before {
+  content: "\ea32";
+  margin-left: -1em;
+  color: rgb(0, 169, 146);
+}
+
+.ib-sofisa-direto-comp-colored .path4:before {
+  content: "\ea33";
+  margin-left: -1em;
+  color: rgb(248, 177, 36);
+}
+
+.ib-sofisa-direto-comp-colored .path5:before {
+  content: "\ea34";
+  margin-left: -1em;
+  color: rgb(248, 177, 36);
+}
+
+.ib-sofisa-direto-comp-colored .path6:before {
+  content: "\ea35";
+  margin-left: -1em;
+  color: rgb(248, 177, 36);
+}
+
+.ib-sofisa-direto-comp-colored .path7:before {
+  content: "\ea36";
+  margin-left: -1em;
+  color: rgb(248, 177, 36);
+}
+
+.ib-sofisa-direto-comp-colored .path8:before {
+  content: "\ea37";
+  margin-left: -1em;
+  color: rgb(248, 177, 36);
+}
+
+.ib-sofisa-direto-comp-colored .path9:before {
+  content: "\ea38";
+  margin-left: -1em;
+  color: rgb(248, 177, 36);
+}
+
+.ib-stone-comp-colored:before {
+  content: "\ea39";
+  color: #00a868;
+}
+
+.ib-tribanco-comp-colored .path1:before {
+  content: "\ea3a";
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-comp-colored .path2:before {
+  content: "\ea3b";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-comp-colored .path3:before {
+  content: "\ea3c";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-comp-colored .path4:before {
+  content: "\ea3d";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-comp-colored .path5:before {
+  content: "\ea3e";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-comp-colored .path6:before {
+  content: "\ea3f";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-comp-colored .path7:before {
+  content: "\ea40";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-comp-colored .path8:before {
+  content: "\ea41";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-comp-colored .path9:before {
+  content: "\ea42";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-comp-colored .path10:before {
+  content: "\ea43";
+  margin-left: -1em;
+  color: rgb(140, 209, 51);
+}
+
+.ib-credisis-slogan-colored .path1:before {
+  content: "\ea44";
+  color: rgb(251, 199, 7);
+}
+
+.ib-credisis-slogan-colored .path2:before {
+  content: "\ea45";
+  margin-left: -1em;
+  color: rgb(0, 166, 80);
+}
+
+.ib-tribanco-slogan-colored .path1:before {
+  content: "\ea46";
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-slogan-colored .path2:before {
+  content: "\ea47";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-slogan-colored .path3:before {
+  content: "\ea48";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-slogan-colored .path4:before {
+  content: "\ea49";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-slogan-colored .path5:before {
+  content: "\ea4a";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-slogan-colored .path6:before {
+  content: "\ea4b";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-slogan-colored .path7:before {
+  content: "\ea4c";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-slogan-colored .path8:before {
+  content: "\ea4d";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-slogan-colored .path9:before {
+  content: "\ea4e";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-tribanco-slogan-colored .path10:before {
+  content: "\ea4f";
+  margin-left: -1em;
+  color: rgb(140, 209, 51);
+}
+
+.ib-tribanco-slogan-colored .path11:before {
+  content: "\ea50";
+  margin-left: -1em;
+  color: rgb(13, 66, 116);
+}
+
+.ib-inter:before {
+  content: "\e900";
+}
+
+.ib-citi-bank:before {
+  content: "\e901";
+}
+
+.ib-itau:before {
+  content: "\e902";
+}
+
+.ib-abc:before {
+  content: "\e903";
+}
+
+.ib-ailos:before {
+  content: "\e904";
+}
+
+.ib-asas:before {
+  content: "\e905";
+}
+
+.ib-amazonia:before {
+  content: "\e906";
+}
+
+.ib-bb:before {
+  content: "\e907";
+}
+
+.ib-mercantil:before {
+  content: "\e908";
+}
+
+.ib-original:before {
+  content: "\e909";
+}
+
+.ib-pine:before {
+  content: "\e90a";
+}
+
+.ib-safra:before {
+  content: "\e90b";
+}
+
+.ib-sofisa:before {
+  content: "\e90c";
+}
+
+.ib-topazio:before {
+  content: "\e90d";
+}
+
+.ib-banese:before {
+  content: "\e90e";
+}
+
+.ib-banestes:before {
+  content: "\e90f";
+}
+
+.ib-bank-of-america:before {
+  content: "\e910";
+}
+
+.ib-banpara:before {
+  content: "\e911";
+}
+
+.ib-banrisul:before {
+  content: "\e912";
+}
+
+.ib-bib:before {
+  content: "\e913";
+}
+
+.ib-bnb:before {
+  content: "\e914";
+}
+
+.ib-bradesco-alt:before {
+  content: "\e915";
+}
+
+.ib-bradesco:before {
+  content: "\e916";
+}
+
+.ib-brb-abbr:before {
+  content: "\e917";
+}
+
+.ib-brb:before {
+  content: "\e918";
+}
+
+.ib-bs2:before {
+  content: "\e919";
+}
+
+.ib-c6:before {
+  content: "\e91a";
+}
+
+.ib-capitual:before {
+  content: "\e91b";
+}
+
+.ib-cef:before {
+  content: "\e91c";
+}
+
+.ib-conta-simples .path1:before {
+  content: "\e91d";
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples .path2:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-conta-simples .path3:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-cora:before {
+  content: "\e920";
+}
+
+.ib-credisis:before {
+  content: "\e921";
+}
+
+.ib-cresol-horizontal:before {
+  content: "\e922";
+}
+
+.ib-daycoval .path1:before {
+  content: "\e923";
+  color: rgb(0, 0, 0);
+}
+
+.ib-daycoval .path2:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-daycoval .path3:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(221, 221, 221);
+}
+
+.ib-efi:before {
+  content: "\e926";
+}
+
+.ib-grafeno:before {
+  content: "\e927";
+}
+
+.ib-hsbc:before {
+  content: "\e928";
+}
+
+.ib-letsbank:before {
+  content: "\e929";
+}
+
+.ib-mercado-pago .path1:before {
+  content: "\e92a";
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago .path2:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago .path3:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago .path4:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago .path5:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago .path6:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-nubank:before {
+  content: "\e930";
+}
+
+.ib-nubank-bg .path1:before {
+  content: "\e931";
+  color: rgb(0, 0, 0);
+}
+
+.ib-nubank-bg .path2:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-nubank-bg .path3:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-omie:before {
+  content: "\e934";
+}
+
+.ib-cresol:before {
+  content: "\e935";
+}
+
+.ib-pagseguro .path1:before {
+  content: "\e936";
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-pagseguro .path3:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro .path4:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-pagseguro .path5:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro .path6:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-pagseguro .path7:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-quality:before {
+  content: "\e93d";
+}
+
+.ib-santander:before {
+  content: "\e93e";
+}
+
+.ib-sicoob:before {
+  content: "\e93f";
+}
+
+.ib-sicoob-min:before {
+  content: "\e940";
+}
+
+.ib-sicredi:before {
+  content: "\e941";
+}
+
+.ib-stone:before {
+  content: "\e942";
+}
+
+.ib-tribanco:before {
+  content: "\e943";
+}
+
+.ib-unicred:before {
+  content: "\e944";
+}
+
+.ib-unicred-bg .path1:before {
+  content: "\e945";
+  color: rgb(0, 0, 0);
+}
+
+.ib-unicred-bg .path2:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-rendimento:before {
+  content: "\e947";
+}
+
+.ib-banco-original-comp:before {
+  content: "\e948";
+}
+
+.ib-banco-pine-comp:before {
+  content: "\e949";
+}
+
+.ib-banco-safra-comp:before {
+  content: "\e94a";
+}
+
+.ib-banco-sofisa-comp:before {
+  content: "\e94b";
+}
+
+.ib-banco-topazio-comp:before {
+  content: "\e94c";
+}
+
+.ib-banese-comp:before {
+  content: "\e94d";
+}
+
+.ib-banese-horizontal-comp:before {
+  content: "\e94e";
+}
+
+.ib-banestes-comp:before {
+  content: "\e94f";
+}
+
+.ib-banpara-comp:before {
+  content: "\e950";
+}
+
+.ib-banrisul-comp:before {
+  content: "\e951";
+}
+
+.ib-bnb-comp:before {
+  content: "\e952";
+}
+
+.ib-bradesco-comp:before {
+  content: "\e953";
+}
+
+.ib-brb-comp:before {
+  content: "\e954";
+}
+
+.ib-c6-comp:before {
+  content: "\e955";
+}
+
+.ib-capitual-comp:before {
+  content: "\e956";
+}
+
+.ib-conta-simples-comp .path1:before {
+  content: "\e957";
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path2:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-conta-simples-comp .path3:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path4:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path5:before {
+  content: "\e95b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path6:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path7:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path8:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path9:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path10:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path11:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path12:before {
+  content: "\e962";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path13:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path14:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path15:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-conta-simples-comp .path16:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-credisis-comp:before {
+  content: "\e967";
+}
+
+.ib-cresol-comp:before {
+  content: "\e968";
+}
+
+.ib-efi-comp:before {
+  content: "\e969";
+}
+
+.ib-banpara-horizontal-comp:before {
+  content: "\e96a";
+}
+
+.ib-letsbank-comp:before {
+  content: "\e96b";
+}
+
+.ib-mercado-pago-comp .path1:before {
+  content: "\e96c";
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path2:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path3:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago-comp .path4:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago-comp .path5:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-mercado-pago-comp .path6:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path7:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path8:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path9:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path10:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path11:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path12:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path13:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path14:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path15:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path16:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercado-pago-comp .path17:before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-mercantil-comp:before {
+  content: "\e97d";
+}
+
+.ib-omie-comp:before {
+  content: "\e97e";
+}
+
+.ib-pagbank-comp .path1:before {
+  content: "\e97f";
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagbank-comp .path2:before {
+  content: "\e980";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-pagbank-comp .path3:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagbank-comp .path4:before {
+  content: "\e982";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-pagbank-comp .path5:before {
+  content: "\e983";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagbank-comp .path6:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-pagbank-comp .path7:before {
+  content: "\e985";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp .path1:before {
+  content: "\e986";
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp .path2:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp .path3:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-pagseguro-comp .path4:before {
+  content: "\e989";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp .path5:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-pagseguro-comp .path6:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-pagseguro-comp .path7:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.ib-pagseguro-comp .path8:before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.ib-sofisa-direto:before {
+  content: "\e98e";
+}
+
+.ib-stone-comp:before {
+  content: "\e98f";
+}
+
+.ib-tribanco-comp:before {
+  content: "\e990";
+}
+
+.ib-credisis-slogan:before {
+  content: "\e991";
+}
+
+.ib-tribanco-slogan:before {
+  content: "\e992";
+}
+
+.ib-1x {
+  font-size: 1em !important
+}
+
+.ib-2x {
+  font-size: 2em !important
+}
+
+.ib-3x {
+  font-size: 3em !important
+}
+
+.ib-4x {
+  font-size: 4em !important
+}
+
+.ib-5x {
+  font-size: 5em !important
+}
+
+.ib-6x {
+  font-size: 6em !important
+}
+
+.ib-7x {
+  font-size: 7em !important
+}
+
+.ib-8x {
+  font-size: 8em !important
+}
+
+.ib-9x {
+  font-size: 9em !important
+}
+
+.ib-10x {
+  font-size: 10em !important
+}
+
+.ib-2xs {
+  font-size: .625em !important;
+  line-height: .1em;
+  vertical-align: .225em
+}
+
+.ib-xs {
+  font-size: .75em !important;
+  line-height: .08333em;
+  vertical-align: .125em
+}
+
+.ib-sm {
+  font-size: .875em !important;
+  line-height: .07143em;
+  vertical-align: .05357em
+}
+
+.ib-lg {
+  font-size: 1.25em !important;
+  line-height: .05em;
+  vertical-align: -.075em
+}
+
+.ib-xl {
+  font-size: 1.5em !important;
+  line-height: .04167em;
+  vertical-align: -.125em
+}
+
+.ib-2xl {
+  font-size: 2em !important;
+  line-height: .03125em;
+  vertical-align: -.1875em
+}
+
+.ib-fw {
+  text-align: center;
+  width: 1.25em
+}
