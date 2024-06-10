@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icons-banks';
-  src:  url('/dist/fonts/icons-banks.eot?uavuoy');
-  src:  url('/dist/fonts/icons-banks.eot?uavuoy#iefix') format('embedded-opentype'),
-    url('/dist/fonts/icons-banks.ttf?uavuoy') format('truetype'),
-    url('/dist/fonts/icons-banks.woff?uavuoy') format('woff'),
-    url('/dist/fonts/icons-banks.svg?uavuoy#icons-banks') format('svg');
+  src: url('../dist/fonts/icons-banks.eot?uavuoy');
+  src: url('../dist/fonts/icons-banks.eot?uavuoy#iefix') format('embedded-opentype'),
+    url('../dist/fonts/icons-banks.ttf?uavuoy') format('truetype'),
+    url('../dist/fonts/icons-banks.woff?uavuoy') format('woff'),
+    url('../dist/fonts/icons-banks.svg?uavuoy#icons-banks') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
